@@ -7,7 +7,7 @@ body{
 }
 .first-content{
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background-color:rgb(59, 22, 94); 
     gap:250px;
     display: flex; 
@@ -16,24 +16,29 @@ body{
     justify-content: center;
     
   }
-/* .third-content{
+.third-content{
     width: 100%;
     height: 50vh;
-    background-color: #25d366;
+    background-color: transparent;
     display: flex;
 }
 
 .descriptionLeft{
     width: 50%;
     height: 100%;
-    background-color: var(--roxo);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
 }
 .descriptionRight{
     width: 50%;
     height: 100%;
-    background-color: rgb(121, 121, 121);
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
- */
+
 
 .contentBox{
     width: 45%;
@@ -43,5 +48,12 @@ body{
 .contentBox h1{
     margin-bottom: 40px;
     font-weight: 700;
-    font-size: 53px;
+    font-size: 3.5rem;
+}
+.boxLeft{
+    margin-top: 4rem;
+    width: 65%;
+}
+.boxLeft h2{
+    color: rgb(59, 22, 94);
 }
