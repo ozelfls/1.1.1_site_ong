@@ -2,6 +2,9 @@
 :root{
     --roxo: rgb(59, 22, 94);
 }
+html{
+    scroll-behavior: smooth;
+  }
 body{
     font-family: "Oswald", sans-serif;
 }
