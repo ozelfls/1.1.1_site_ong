@@ -49,6 +49,7 @@
    left: 0;
    transition: 0.5s;
   }
+
   #header-about{
   font-family: 'inter';
   font-size: 18px;
@@ -66,14 +67,17 @@
    left: 0;
    transition: 0.5s;
   }
+
   #header-top a {
   display: inline-block;
   text-decoration: none;
   color: white;
 }
+
 #header-top.colorHeader a{
   color: black;
 }
+
 .colorHeader{
   transition: 0.5s;
   background-color: white;
@@ -109,7 +113,7 @@
 
   #main-content2{
    width: 100%;
-   height:30rem;
+   height: 36.61;
    background-color: white; 
    gap:250px;
    text-align: center;
@@ -266,6 +270,9 @@
     transition: all 0.9s;
   }
   
+  #footer_ajuda{
+    font-family:'inter';
+  }
   
   #footer_subscribe{
     display: flex;
@@ -368,3 +375,133 @@
 
 
 
+  @media screen and (max-width: 768px) {
+    #header-top {
+      font-size: 16px;
+      gap: 20px;
+      padding: 0 10px;
+    }
+    #header-top img {
+      height: 80%;
+    }
+    #main-content {
+      height: 40vh;
+      padding: 0 5%;
+    }
+    #main-content2 {
+      flex-direction: column;
+      height: auto;
+      gap: 50px;
+      padding: 50px 0;
+    }
+    #informacao, #acolhimento, #tratamento {
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+    .icones {
+      margin-top: 30px;
+    }
+    #footer_content {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .footer-lista {
+      width: 100%;
+      padding-left: 0;
+      grid-column: span 2;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #header-top {
+      font-size: 14px;
+      gap: 15px;
+      justify-content: space-around;
+    }
+    #header-top a {
+      margin: 0 5px;
+    }
+    #header-top img {
+      height: 70%;
+    }
+    #main-content {
+      height: 30vh;
+    }
+    #main-content h3 {
+      font-size: 2rem;
+    }
+    #main-content2 {
+      gap: 30px;
+      padding: 30px 0;
+    }
+    #informacao, #acolhimento, #tratamento {
+      width: 90%;
+    }
+    .titulo {
+      font-size: 18px;
+      padding-top: 20px;
+    }
+    .desc {
+      padding-top: 15px;
+      font-size: 14px;
+    }
+    #footer_content {
+      grid-template-columns: 1fr;
+      padding: 1.5rem;
+    }
+    .footer-list {
+      margin-left: 0;
+    }
+    .footer-lista {
+      grid-column: span 1;
+    }
+    #footer_social_media {
+      justify-content: center;
+    }
+    #footer_copyright {
+      font-size: 0.8rem;
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    #header-top {
+      font-size: 12px;
+      gap: 10px;
+    }
+    #header-top img {
+      display: none;
+    }
+    .titulo {
+      font-size: 16px;
+    }
+    .desc {
+      font-size: 12px;
+    }
+    .icones {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .first-content .contentBox {
+      padding: 0 20px;
+    }
+    .third-content {
+      flex-direction: column;
+    }
+    .descriptionLeft, .descriptionRight {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .onHandle .boxLeft {
+      padding: 0 20px;
+    }
+  }
+  
