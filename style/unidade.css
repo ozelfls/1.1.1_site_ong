@@ -1,46 +1,61 @@
 .servicesContent{
-    border: 2px solid purple;
     margin: 10px;
     margin-left: 40px;
     margin-right: 40px;
-    gap: 8px;
+    gap: 40px;
     display: grid;
-    /* grid-template-columns: 5rem 5rem 5rem; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
     grid-auto-rows: 20rem;
-    grid-template-columns: repeat(3,minmax(0px,1fr));
+    grid-template-columns: repeat(3,minmax(0px,30rem));
+    margin-bottom: 5%;
+    
+}
+.servicesContent p{
+    font-size: 15px;
+    width: 100%;
 }
 .item{
-    background-color: greenyellow;
     text-align: center;
     border-radius: 8px;
-
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .formatacao{
-margin-top: 10%;
-
+    margin-top: 5%;
+    overflow: hidden;
+    padding: 0 20px;
 }
-
 .formatacao h2{
     color: rgb(59, 22, 94);
     margin-bottom: 2%;
+    
 }
-ul {
-    list-style-type: none;
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#iconGrid{
+    font-size: 50px;
+    color: white;
+}
+.bgIcon{
+    background-color: rgb(59, 22, 94);
+    border-radius: 8px 8px 0px 0px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.between{
-    margin-bottom: 20px;
-}
+
 @media screen and (max-width: 720px) {
     .servicesContent{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(1,30rem);
         grid-auto-rows: 20rem;
     }
 }
 @media screen and (max-width: 520px){
     .servicesContent{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,30rem);
         grid-auto-rows: 20rem;
     }
 }
