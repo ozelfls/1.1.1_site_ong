@@ -128,9 +128,18 @@
    text-align: center;
    justify-content: center;
    display: flex;
+   
+  }
+  #main-content3{
+    display: inline-block;
   }
   #form-banner{
     bottom: 20%;
+  }
+  .alignCenter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   #btn-banner1{
     margin-top: 5%;
