@@ -67,6 +67,71 @@
     justify-content: center;
     align-items: center;
 }
+.contactDesc h2{
+    color: rgb(59, 22, 94);
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.contactDesc{
+    width: 50%;
+    margin-left: 10%;
+}
+.contactDesc p{
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.contactUs{
+    margin-bottom: 3rem;
+    display: flex;
+}
+.contactUs li{
+    margin-bottom: 3px;
+}
+ul li{
+    list-style-type: none;
+}
+
+.contactGrid{
+    width: auto;
+    
+}
+
+.contactContent{
+/* border: 2px solid blue; */
+margin: 8px;
+display: grid;
+gap: 20px;
+grid-template-columns: 16rem 16rem;
+grid-template-rows: 12rem 12rem;
+
+
+}
+
+.box{
+    background-color: rgb(59, 22, 94);
+    border-radius: 7px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxDesc i{
+    font-size: 60px;
+}
+.boxDesc p{
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.boxDesc{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
 
 
 @media screen and (max-width: 720px) {
