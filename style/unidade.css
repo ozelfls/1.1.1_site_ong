@@ -13,6 +13,21 @@
     font-size: 15px;
     width: 100%;
 }
+.servicesContent1{
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    gap: 40px;
+    display: grid;
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(2,minmax(0px,30rem));
+    margin-bottom: 5%;
+    
+}
+.servicesContent p{
+    font-size: 15px;
+    width: 100%;
+}
 .item{
     text-align: center;
     border-radius: 8px;
@@ -32,6 +47,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.center1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 #iconGrid{
     font-size: 50px;

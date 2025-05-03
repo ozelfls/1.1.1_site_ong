@@ -73,3 +73,8 @@ body{
 .boxLeft h2{
     color: rgb(59, 22, 94);
 }
+.centralizar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
