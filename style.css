@@ -123,7 +123,7 @@
   #main-content3 {
     width: 100%;
     height: 80vh;
-    background-color: white;
+    background-color: rgb(59, 22, 94);
     color: whitesmoke;
     display: flex;
     justify-content: center; 
@@ -515,7 +515,7 @@
       height: 450px;
       overflow: hidden;
       border-radius: 10px;
-      border: 3px solid;
+      border: 3px solid rgb(59, 22, 94);
       margin-top: auto;
       margin-bottom: auto;
   }
@@ -580,11 +580,11 @@
 }
   .titulo2{
     font-size: 60px;
-    color: rgb(59, 22, 94);
+    color: white;
   }
   .desc2{
     font-size: 20px;
-    color: black;
+    color: white;
   }
   .slide img {
     max-width: 100%;
