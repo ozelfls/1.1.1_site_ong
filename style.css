@@ -123,8 +123,8 @@
   #main-content3 {
     width: 100%;
     height: 80vh;
-    background-color: rgb(59, 22, 94);
-    color: whitesmoke;
+    background-color: white;
+    color: rgb(59, 22, 94);
     display: flex;
     justify-content: center; 
     align-items: center;     
@@ -550,8 +550,8 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 2.5rem; 
-    background-color: rgb(59, 22, 94);  
-    color: white;  
+    background-color: white;
+    color: rgb(59, 22, 94); 
     border: none;
     cursor: pointer;
     padding: 15px; 
@@ -575,16 +575,16 @@
     right: 10px;
   }
   .seta:hover {
-    background-color: rgb(59, 22, 94);  
+    background-color: white; 
     transition: background-color 0.3s ease;
 }
   .titulo2{
     font-size: 60px;
-    color: white;
+    color: rgb(59, 22, 94);
   }
   .desc2{
     font-size: 20px;
-    color: white;
+    color: rgb(59, 22, 94);
   }
   .slide img {
     max-width: 100%;
@@ -610,4 +610,34 @@
     max-width: 800px;  
     color: #3b165e;              
     font-weight: 600;
+  }
+  #containerNEW{
+    width:100%;
+    height:500px;
+    background: white;
+    display:flex;
+  }
+  .fotocasarara{
+    width:50%;
+  }
+  #container-resumo{
+    width: 50%;
+    background-color: rgb(59, 22, 94);  
+    display: block;
+    text-align: center;
+    padding: 40px 30px;
+
+  }
+  .titulocasarara{
+  color: white;
+  font-size: 40px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  }
+  .resumo {
+    color: white;
+    padding: 30px;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
   }
