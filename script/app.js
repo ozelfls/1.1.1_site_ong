@@ -28,3 +28,20 @@ const slides = document.querySelectorAll('.slide');
   }
   
   mostrarSlide(indexAtual);
+
+  function copiarChavePix() {
+    const chavePix = 'casa.atipicaa@gmail.com';
+    const botao = document.getElementById('copiarPix');
+
+    navigator.clipboard.writeText(chavePix).then(() => {
+        botao.textContent = 'Copiado!';
+        botao.disabled = true;
+
+        setTimeout(() => {
+            botao.textContent = 'Copiar Chave';
+            botao.disabled = false;
+        }, 2000);
+    }).catch(err => {
+        console.error('Erro ao copiar: ', err);
+    });
+}
