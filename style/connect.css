@@ -1,0 +1,22 @@
+#div_connect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px; 
+}
+
+
+.btn_connect{
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px 40px;         
+    font-size: 24px;            
+    cursor: pointer;
+    width: 300px;               
+    height: 80px; 
+    margin-top: 100px;              
+    margin-left: 10px;
+    margin-right: 10px;
+}
