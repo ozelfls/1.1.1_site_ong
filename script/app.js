@@ -84,3 +84,14 @@ dots.forEach((dot, i) => {
 });
 
 iniciarCarrossel();
+
+let contadorSecreto = 0;
+const botao = document.getElementById('botaoMagico')
+const link = document.getElementById('linkSecreto')
+
+botao.addEventListener('click', () => {
+    contadorSecreto++;
+    if(contadorSecreto === 3) {
+        link.classList.add('aparecer');
+    }
+});

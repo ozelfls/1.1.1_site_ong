@@ -1073,8 +1073,8 @@
   }
   .franitImagem img {
     width: 70dvh;
-    height: 70dvh;
-    object-fit: cover;
+    height: 80dvh;
+    object-fit: fill;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   }
@@ -1102,4 +1102,27 @@
     margin-right: 5px;
     font-size: 2.5dvh;
   }
+
+  .botaoConecte {
+    background-color: #8A2BE2;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.5dvh;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 28px;
+    opacity: 0;
+    transition: all 3s ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    pointer-events: none;
+  }
+  .botaoConecte:hover {
+
+  }
+  .botaoConecte.aparecer {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
 
