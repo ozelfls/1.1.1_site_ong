@@ -1,0 +1,200 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="{% static 'style.css' %}" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'imagens/icons/LogoSomente.png' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=National+Park:wght@200..800&display=swap" rel="stylesheet">
+    <title>Casa Rara</title>
+</head>
+<body>
+    <header>
+        <div id="header-top">
+            <img src="{% static 'imagens/casaRaraBranco_1.png' %}" alt="" id="casaRaraLogo" href="index.html">
+            <a href="#">Início</a>
+            <a href="/unidade/">Unidade</a>
+            <a href="/sobre/">Sobre</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="bannerCarrossel">
+            <div class="bannerSlide ativo" style="background-image: url('{% static 'imagens/ondeEncontrar.png' %}');">
+                <div class="bannerConteudo1">
+                    <h1>Visite a sede da Casa Rara!</h1>
+                    <p>Estamos de portas abertas para acolher, incluir e cuidar.</p>
+                    <p>Conheça nosso espaço e venha fazer parte dessa causa rara!</p>
+                    <a href="https://www.google.com/maps/place/Casa+at%C3%ADpica/@-22.8814278,-43.0989806,17z/data=!3m1!4b1!4m6!3m5!1s0x99830016f7aaad:0xb85e9d4ac20f9ebf!8m2!3d-22.8814278!4d-43.0989806!16s%2Fg%2F11vxlfwwdf?entry=ttu&g_ep=EgoyMDI1MDUwNi4wIKXMDSoASAFQAw%3D%3D" class="botaoChegar" target="_blank">COMO CHEGAR</a>
+                </div>
+                <div class="localizacao">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="gps-ico">
+                        <p class="gps-texto">Rua Duarte Galvão, n°17 -</p>
+                        <p class="gps-texto">Fonseca, Niterói - RJ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bannerSlide ativo" style="background-image: url('{% static 'imagens/mac.png' %}');">
+                <div class="bannerConteudo2">
+                    <h1>Juntos por <br> vidas raras</h1>
+                    <p>Descubra o poder da <br> Frente Rara de Niterói</p>
+                    <img src="{% static 'imagens/logoFrannit.png' %}" alt="Logo Franit" class="logoFranit">
+                    <a href="#franitInfo" class="botaoSaiba">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="bannerSlide banner3">
+                <div class="bannerConteudo3">
+                    <h1 class="tituloBanner3">Ajude-nos a <br> fazer a diferença</h1>
+                    <p class="textoBanner3">Sua doação traz esperança <br> para tantas vidas</p>
+                    <a href="#main-content4" class="botaoDoar">Doe agora e transforme vidas</a>
+                </div>
+
+                <div class="iconesBanner3">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-handshake"></i>
+                </div>
+            </div>
+
+            <div class="dots">
+                <div class="dot"><div class="preencher"></div></div>
+                <div class="dot"><div class="preencher"></div></div>
+                <div class="dot"><div class="preencher"></div></div>
+            </div>
+        </div>
+
+        <div id="main-content2">
+            <div id="informacao">
+                <img src="{% static 'imagens/icons/cerca-de.png' %}" class="icones" />
+                <h3 class="titulo">Informação</h3>
+                <p class="desc">Disseminamos conhecimento sobre doenças raras para empoderar famílias e profissionais.</p>
+            </div>
+            <div id="acolhimento">
+                <img src="{% static 'imagens/icons/gostar.png' %}" class="icones" />
+                <h3 class="titulo">Acolhimento</h3>
+                <p class="desc">Um espaço seguro onde ninguém se sente sozinho.</p>
+            </div>
+            <div id="tratamento">
+                <img src="{% static 'imagens/icons/image.png' %}" class="icones" />
+                <h3 class="titulo">Tratamento Multidisciplinar Gratuito</h3>
+                <p class="desc">Atendimentos especializados com valores sociais acessíveis.</p>
+            </div>
+        </div>
+
+        <div id="containerNEW">
+            <div class="donation-info">
+                <div class="donation-text">
+                    <h2>Sobre a Casa Rara</h2>
+                    <p>Nossa missão é ajudar pessoas com doenças raras e suas famílias...</p>
+                </div>
+                <div class="donation-list">
+                    <ul>
+                        <li><span class="check-icon"></span> Faça uma Doação Única</li>
+                        <li><span class="check-icon"></span> Doe Mensalmente</li>
+                        <li><span class="check-icon"></span> Faça a Diferença</li>
+                        <li><span class="check-icon"></span> Seja um Voluntário</li>
+                        <li><span class="check-icon"></span> Ajude vidas</li>
+                    </ul>
+                </div>
+                <div class="donate-now">
+                    <a href="#main-content4" class="donate-now-button">Doe Agora</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-content3">
+            <div class="alignCenter">
+                <h1 class="titulo2">Eu apoio a CASA RARA</h1>
+                <p class="desc2">Um espaço seguro onde ninguém se sente sozinho.</p>
+                <div class="carrossel">
+                    <div class="slides" id="slideContainer">
+                        <div class="slide" style="background-image: url('{% static 'imagens/assets/casararaevento.jpg' %}');background-position: center 40%"></div>
+                        <div class="slide" style="background-image: url('{% static 'imagens/assets/casararaevento2.jpg' %}');background-position: center 40%"></div>
+                        <div class="slide" style="background-image: url('{% static 'imagens/assets/casararaevento3.jpg' %}');background-position: center 40%"></div>
+                    </div>
+                    <button class="seta esquerda" onclick="mudarSlide(-1)">&#10094;</button>
+                    <button class="seta direita" onclick="mudarSlide(1)">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-content4">
+            <div class="pix-container">
+                <h1 class="titulopix">Sua doação transforma vidas. Contribua via Pix!</h1>
+                <p class="mensagem-pix">Com sua ajuda, oferecemos acolhimento e tratamento gratuito a quem mais precisa.</p>
+                <img src="{% static 'imagens/assets/pix.png' %}" alt="QR Code Pix para doação" class="qrpix">
+                <div class="pix-dados">
+                    <p><strong>Chave Pix (E-mail):</strong> casa.atipicaa@gmail.com</p>
+                    <button id="copiarPix" onclick="copiarChavePix()">Copiar Chave</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="franitInfo">
+            <div class="franitContainer">
+                <div class="franitTexto">
+                    <h2>Sobre a FRANIT</h2>
+                    <p><strong>FRANIT (Frente Rara de Niterói)</strong> é um coletivo criado em fevereiro de 2024...</p>
+                    <h3>Objetivos</h3>
+                    <ul>
+                        <li>Fortalecer a representatividade...</li>
+                        <li>Promover políticas públicas...</li>
+                        <li>Atuar na defesa de direitos...</li>
+                        <li>Unificar esforços...</li>
+                    </ul>
+                    <h3>Compromisso com a transformação</h3>
+                    <p>A FRANIT acredita que a transformação social só é possível com empatia...</p>
+                    <blockquote class="fraseFranit">
+                        <i class="fa-solid fa-quote-left iconeFrase"></i>
+                        Somos todos raros.
+                    </blockquote>
+                </div>
+                <div class="franitImagem">
+                    <figure>
+                        <img src="{% static 'imagens/fotoFranit.png' %}" alt="Imagem da Franit">
+                        <figcaption class="franitLegenda">Audiência pública...</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h1>Casa Atípica</h1>
+                <p>Transformando diferenças em potência...</p>
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com/casa.atipica/" target="_blank" class="footer-link" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=100087728827841" target="_blank" class="footer-link" id="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.me/5521981069961" target="_blank" class="footer-link" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li><h3>Contatos:</h3></li>
+                <li><a href="mailto:Casa.atipicaa@gmail.com" class="footer-link"><strong>E-mail:</strong> Casa.atipicaa@gmail.com</a></li>
+                <li><a href="https://wa.me/5521981069961" class="footer-link"><strong>Whatsapp:</strong> (21) 98106-9961</a></li>
+            </ul>
+            <div id="footer_subscribe">
+                <h3>AJUDA</h3>
+                <p id="footer_ajuda">ENVIE SEU EMAIL PARA RECEBER AJUDA</p>
+                <div id="input_group">
+                    <input type="email" id="email" name="email" required>
+                    <button><i class="fa-regular fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="footer_copyright">
+            &#169; 2025 - Todos os direitos reservados. Por Casa Rara
+        </div>
+        <a href="connect.html">conecte aqui!!</a>
+    </footer>
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>

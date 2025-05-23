@@ -1,22 +1,23 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet"/>
-    <link href="/style/about.css" rel="stylesheet"/>
+    <link href="/static/style.css" rel="stylesheet"/>
+    <link href="/static/about.css" rel="stylesheet"/>
     <!--<link href="/style/responsividade_unidade.css"/>-->
-    <link rel="stylesheet" href="style/unidade.css">
-    <link rel="icon" href="imagens/icons/LogoSomente.png">
+    <link rel="stylesheet" href="/static/unidade.css">
+    <link rel="icon" href="/static/imagens/icons/LogoSomente.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>Sobre nós</title>
 </head>
 <body>
     <div id="header-top">
-        <img src="imagens/casaRaraBranco_1.png" alt="" id="casaRaraLogo">
-        <a href="index.html">Início</a>
+        <img src="/static/imagens/casaRaraBranco_1.png" alt="" id="casaRaraLogo">
+        <a href="/inicio/">Início</a>
         <a href="#">Unidade</a>
-        <a href="about.html">Sobre</a>
+        <a href="/sobre/">Sobre</a>
     </div>
     <div class="first-content">
         <div class="contentBox">
@@ -181,6 +182,6 @@
         </div>
       
       </footer>
-    <script src="script/app.js"></script>
+    <script src="{% static 'js/app.js' %}"></script>
 </body>
 </html>
