@@ -852,7 +852,6 @@
   }
 
   .pix-dados {
-
     background-color: #f3effa;
     padding: 20px;
     border-radius: 12px;
@@ -1017,65 +1016,90 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
   }
-
   .donate-button:hover {
       background-color:  #5a2b89;
   }
 
-  #franit-info {
+  #franitInfo {
     background-color: #f5f0fa;
     padding: 80px 60px;
     display: flex;
     justify-content: center;
   }
 
-  .franit-container {
+  .franitContainer {
     display: flex;
-    max-width: 1200px;
+    max-width: 1400px;
     width: 100%;
     gap: 60px;
     flex-wrap: wrap;
     align-items: center;
   }
 
-  .franit-texto {
+  .franitTexto {
     flex: 1 1 80dvh;
     color: #2e1a47;
     font-family: 'Inter', sans-serif;
   }
-  .franit-texto h2 {
+  .franitTexto h2 {
     font-size: 36px;
     margin-bottom: 20px;
     color: #5e2c87;
   }
-  .franit-texto h3 {
+  .franitTexto h3 {
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 10px;
     color: #7a45b2;
   }
-  .franit-texto p {
+  .franitTexto p {
     font-size: 18px;
     margin-left: 20px;
     margin-bottom: 16px;
   }
-  .franit-texto ul {
+  .franitTexto ul {
     list-style: disc;
     padding-left: 25px;
     margin-bottom: 16px;
   }
-  .franit-texto li {
+  .franitTexto li {
     margin-bottom: 15px;
     font-size: 17px;
   }
 
-  .franit-imagem {
+  .franitImagem {
     flex: 1 1 35dvh;
     text-align: center;
   }
+  .franitImagem img {
+    width: 70dvh;
+    height: 70dvh;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
 
-  .franit-imagem img {
-    max-width: 100%;
-    height: auto;
+  .franitLegenda {
+    color: #2e1a47;
+    font-weight: bold;
+    margin-top: 1.5dvh;
+    font-style: italic;
+  }
+
+  .fraseFranit {
+    color: #6a1b9a;
+    margin-top: 5dvh;
+    border-left: 4px solid #8A2BE2;
+    background: linear-gradient(90deg, rgba(245,200,255,0.7), rgba(245,200,255,0));
+    font-size: 3.2dvh;
+    font-style: italic;
+    padding-left: 2dvh;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  .iconeFrase {
+    color: #8A2BE2;
+    margin-right: 5px;
+    font-size: 2.5dvh;
   }
 
