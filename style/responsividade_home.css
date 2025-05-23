@@ -1,0 +1,194 @@
+@media screen and (max-width: 1200px) {
+  #footer_content {
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-lista {
+      grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .index-page #main-content2 {
+      gap: 30px;
+      padding: 60px 5%;
+  }
+  .index-page #informacao, 
+  .index-page #acolhimento, 
+  .index-page #tratamento {
+      width: 280px;
+      min-height: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header-top {
+      font-size: 16px;
+      gap: 20px;
+      height: 8vh;
+      min-height: 50px;
+      justify-content: space-around;
+  }
+  #header-top img {
+      height: 70%;
+  }
+  .index-page #main-content {
+      height: 80vh;
+      min-height: 500px;
+  }
+  .index-page #main-content2 {
+      padding: 40px 5%;
+  }
+  .index-page #informacao, 
+  .index-page #acolhimento, 
+  .index-page #tratamento {
+      width: 100%;
+      max-width: 350px;
+      min-height: 300px;
+  }
+  .index-page .icones {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 20px;
+  }
+  .index-page .titulo {
+      font-size: 20px;
+  }
+  #footer_content {
+      padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #header-top {
+      font-size: 14px;
+      gap: 15px;
+  }
+  #header-top img {
+      height: 60%;
+  }
+  .index-page #main-content {
+      height: 70vh;
+      min-height: 400px;
+  }
+  .index-page #main-content3 {
+      height: 40vh;
+      min-height: 300px;
+  }
+  .index-page .desc {
+      font-size: 14px;
+      line-height: 1.5;
+  }
+  #footer_content {
+      grid-template-columns: 1fr;
+      padding: 2rem 1.5rem;
+  }
+  .footer-lista {
+      grid-column: span 1;
+  }
+  .footer-link, .footerlink {
+      font-size: 14px !important;
+  }
+  #footer_subscribe {
+      grid-column: span 1;
+  }
+  #input_group {
+      flex-direction: column;
+  }
+  #input_group input {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  #input_group button {
+      width: 100%;
+      padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #header-top {
+      font-size: 12px;
+      gap: 10px;
+  }
+  #header-top img {
+      display: none;
+  }
+  .index-page #main-content {
+      height: 60vh;
+  }
+  .index-page .titulo {
+      font-size: 18px;
+  }
+  .index-page .desc {
+      font-size: 15px;
+  }
+  #footer_social_media {
+      justify-content: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #header-top {
+      font-size: 10px;
+      gap: 8px;
+  }
+  .index-page #main-content {
+      height: 50vh;
+  }
+  .index-page #main-content2 {
+      padding: 30px 5%;
+  }
+  .index-page .icones {
+      width: 50px;
+      height: 50px;
+  }
+  #footer_content {
+      padding: 1.5rem 1rem;
+  }
+  #footer_social_media {
+      gap: 1rem;
+  }
+  #footer_social_media .footer-link {
+      height: 2rem;
+      width: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .index-page #main-content2 {
+      gap: 40px;
+  }
+  .index-page #informacao, 
+  .index-page #acolhimento, 
+  .index-page #tratamento {
+      width: 45%;
+      min-width: 250px;
+  }
+  #footer_content {
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-lista {
+      grid-column: span 3;
+  }
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .index-page #main-content {
+      height: 120vh;
+  }
+  #header-top {
+      height: 15vh;
+  }
+  .index-page main {
+      margin-top: 15vh;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.icones {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: contain;
+}
