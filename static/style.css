@@ -1126,4 +1126,415 @@
   }
   
 
+@media screen and (max-width: 1200px) {
+    #header-top {
+        justify-content: space-around;
+        gap: 20px;
+    }
+    
+    #main-content2 {
+        padding: 40px 3%;
+    }
+    
+    #footer_content {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        padding: 2.5rem;
+    }
+    
+    .footer-lista {
+        grid-column: span 3;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 1rem;
+    }
+}
 
+@media screen and (max-width: 992px) {
+    #header-top {
+        font-size: 16px;
+        gap: 15px;
+    }
+    
+    #header-top img {
+        height: 80%;
+    }
+    
+    #main-content2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #informacao, #acolhimento, #tratamento {
+        min-width: 45%;
+        max-width: none;
+    }
+    
+    .footer-list {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #header-top {
+        height: 8vh;
+        font-size: 14px;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    
+    #header-top img {
+        height: 70%;
+        padding: 5px;
+    }
+    
+    #header-top a {
+        white-space: nowrap;
+        padding: 0 8px;
+    }
+    
+    #main-content {
+        height: 50vh;
+    }
+    
+    #main-content2 {
+        flex-direction: column;
+        padding: 30px 5%;
+    }
+    
+    #informacao, #acolhimento, #tratamento {
+        width: 100%;
+        max-width: none;
+        min-width: auto;
+        margin-bottom: 20px;
+    }
+    
+    .icones {
+        margin-top: 30px;
+    }
+    
+    .titulo {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    
+    .desc {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+    
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-lista {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #header-top {
+        font-size: 12px;
+        gap: 5px;
+        padding: 0 10px;
+    }
+    
+    #header-top img {
+        height: 60%;
+    }
+    
+    #header-top a {
+        padding: 0 5px;
+    }
+    
+    #main-content {
+        height: 40vh;
+    }
+    
+    .titulo {
+        font-size: 16px;
+    }
+    
+    .desc {
+        font-size: 13px;
+    }
+    
+    .icones {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    #footer_content {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+    
+    .footer-list, .footer-lista {
+        grid-column: span 1;
+    }
+    
+    #footer_subscribe {
+        margin-top: 1.5rem;
+    }
+    
+    #footer_social_media {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #header-top {
+        height: 7vh;
+    }
+    
+    #header-top img {
+        display: none; 
+    }
+    
+    #header-top a {
+        font-size: 11px;
+        padding: 0 3px;
+    }
+    
+    #main-content {
+        height: 35vh;
+    }
+    
+    #main-content2 {
+        padding: 20px 3%;
+    }
+    
+    .titulo {
+        font-size: 15px;
+        padding-top: 15px;
+    }
+    
+    .desc {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    
+    .icones {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
+    
+    #footer_copyright {
+        font-size: 0.7rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .bannerConteudo1 h1 {
+        font-size: 8dvh;
+    }
+    
+    .bannerConteudo1 p {
+        font-size: 3dvh;
+    }
+    
+    .localizacao {
+        font-size: 2.5dvh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bannerConteudo1 {
+        left: 10dvh;
+        top: 20dvh;
+    }
+    
+    .botaoChegar {
+        right: 25dvh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bannerConteudo1 {
+        left: 5dvh;
+        top: 15dvh;
+    }
+    
+    .bannerConteudo1 h1 {
+        font-size: 6dvh;
+    }
+    
+    .bannerConteudo1 p {
+        font-size: 2.5dvh;
+    }
+    
+    .localizacao {
+        font-size: 2dvh;
+        left: 10dvh;
+        top: 25dvh;
+    }
+    
+    .botaoChegar {
+        padding: 12px 25px;
+        right: 15dvh;
+        top: 25dvh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bannerConteudo1 {
+        left: 3dvh;
+        top: 10dvh;
+    }
+    
+    .bannerConteudo1 h1 {
+        font-size: 4dvh;
+    }
+    
+    .bannerConteudo1 p {
+        font-size: 2dvh;
+        margin-left: 1dvh;
+    }
+    
+    .localizacao {
+        font-size: 1.5dvh;
+        left: 5dvh;
+        top: 18dvh;
+        gap: 1dvh;
+    }
+    
+    .localizacao i {
+        font-size: 2dvh;
+    }
+    
+    .botaoChegar {
+        padding: 10px 20px;
+        right: 5dvh;
+        top: 17dvh;
+        font-size: 1.5dvh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #main-content3 {
+        height: auto;
+        padding: 40px 20px;
+    }
+    
+    .banner3 {
+        flex-direction: column;
+        padding: 0 10dvh;
+    }
+    
+    .tituloBanner3 {
+        font-size: 5dvh;
+        text-align: center;
+    }
+    
+    .textoBanner3 {
+        font-size: 3dvh;
+        text-align: center;
+    }
+    
+    .botaoDoar {
+        margin-top: 3dvh;
+    }
+    
+    .iconesBanner3 {
+        flex-direction: row;
+        margin-top: 3dvh;
+        font-size: 12dvh;
+        gap: 4dvh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner3 {
+        padding: 0 5dvh;
+    }
+    
+    .tituloBanner3 {
+        font-size: 4dvh;
+    }
+    
+    .textoBanner3 {
+        font-size: 2.5dvh;
+    }
+    
+    .botaoDoar {
+        font-size: 2.5dvh;
+        padding: 15px 30px;
+    }
+    
+    .iconesBanner3 {
+        font-size: 10dvh;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner3 {
+        padding: 0 3dvh;
+    }
+    
+    .tituloBanner3 {
+        font-size: 3dvh;
+    }
+    
+    .textoBanner3 {
+        font-size: 2dvh;
+    }
+    
+    .botaoDoar {
+        font-size: 2dvh;
+        padding: 12px 25px;
+    }
+    
+    .iconesBanner3 {
+        font-size: 8dvh;
+        gap: 3dvh;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #main-content4 {
+        padding: 40px 15px;
+    }
+    
+    .titulopix {
+        font-size: 28px;
+    }
+    
+    #main-content4 img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulopix {
+        font-size: 24px;
+    }
+    
+    #main-content4 img {
+        width: 180px;
+    }
+    
+    .pix-container {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .titulopix {
+        font-size: 20px;
+    }
+    
+    #main-content4 img {
+        width: 150px;
+    }
+    
+    .pix-container {
+        padding: 20px;
+    }
+    
+    .qrpix {
+        width: 150px;
+    }
+}

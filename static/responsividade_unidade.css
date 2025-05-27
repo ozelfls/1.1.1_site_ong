@@ -1,15 +1,3 @@
-@media screen and (max-width: 720px) {
-    .servicesContent{
-        grid-template-columns: repeat(1,30rem);
-        grid-auto-rows: 20rem;
-    }
-}
-@media screen and (max-width: 520px){
-    .servicesContent{
-        grid-template-columns: repeat(1,30rem);
-        grid-auto-rows: 20rem;
-    }
-}
 
 @media screen and (max-width: 1200px) {
     .contentBox {
