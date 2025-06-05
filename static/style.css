@@ -323,15 +323,16 @@
   }
 
   #main-content3 {
-    width: 100%;
-    height: 80vh;
-    background-color: white;
-    background: linear-gradient(to bottom left, #f3effa, #f9f6fc);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+  width: 100%;
+  min-height: 80vh;
+  background: linear-gradient(to bottom left, #f3effa, #f9f6fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
   #form-banner{
     bottom: 20%;
@@ -705,38 +706,38 @@
     }
   }
   .carrossel {
-      position: relative;
-      width: 800px;
-      height: 450px;
-      overflow: hidden;
-      border-radius: 10px;
-      border: 3px solid rgb(59, 22, 94);
-      margin-top: auto;
-      margin-bottom: auto;
-  }
+  position: relative;
+  width: 90%; /* em vez de 800px */
+  max-width: 800px;
+  aspect-ratio: 16 / 9; /* mantém proporção em qualquer tela */
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid rgb(59, 22, 94);
+  margin: auto;
+}
 
-  .slides {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
+.slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
-  .slide {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    background-size: cover;
-    background-position: center;
-  }
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  background-size: cover;
+  background-position: center;
+}
 
-  .slide.ativa {
-    opacity: 1;
-    z-index: 1;
-  }
+.slide.ativa {
+  opacity: 1;
+  z-index: 1;
+}
 
   .seta {
     position: absolute;
@@ -1541,4 +1542,18 @@
     .qrpix {
         width: 150px;
     }
+}
+@media (max-width: 480px) {
+  .carrossel {
+    width: 100%;
+    border-width: 2px;
+  }
+
+  .titulo2 {
+    font-size: 1.5rem;
+  }
+
+  .desc2 {
+    font-size: 1rem;
+  }
 }
