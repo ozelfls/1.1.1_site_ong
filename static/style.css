@@ -1124,7 +1124,11 @@
     opacity: 1;
     pointer-events: auto;
   }
-  
+
+  #fraint{
+    width: 500px;
+    height: auto;
+  }
 
 @media screen and (max-width: 1200px) {
     #header-top {
