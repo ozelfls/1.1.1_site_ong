@@ -29,6 +29,7 @@
     width: 100%;
 }
 .item{
+    background: #F9F6FC;
     text-align: center;
     border-radius: 8px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -47,6 +48,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    background: #F5F0FA;
 }
 .center1{
     width: 100%;
@@ -54,6 +56,10 @@
     justify-content: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    background: #F3EFFA;
+}
+body{
+    background:#F3EFFA;
 }
 #iconGrid{
     font-size: 50px;
@@ -85,6 +91,7 @@
 .contactUs{
     margin-bottom: 3rem;
     display: flex;
+    background: #F5F0FA;
 }
 .contactUs li{
     margin-bottom: 3px;
@@ -108,6 +115,7 @@ grid-template-rows: 12rem 12rem;
 
 
 }
+
 
 .box{
     background-color: rgb(59, 22, 94);

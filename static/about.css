@@ -11,7 +11,7 @@ body{
 .first-content{
     width: 100%;
     height: 50vh;
-    background-color:rgb(59, 22, 94); 
+    background-color:rgb(59, 22, 94);
     gap:250px;
     display: flex; 
     text-align: center;
@@ -19,6 +19,9 @@ body{
     justify-content: center;
     
   }
+body{
+    background:#F3EFFA;
+}
   .firstAbout{
     width: 100%;
     justify-items: center;
@@ -27,7 +30,7 @@ body{
 .third-content{
     width: 100%;
     height: 30vh;
-    background-color: transparent;
+    background-color: #F5F0FA;
     display: flex;
     justify-content: center;
     text-align: center;
