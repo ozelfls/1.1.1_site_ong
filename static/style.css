@@ -1536,8 +1536,43 @@
         width: 200px;
     }
 }
-
+/*AQUI*/
+/*yago vc tem que mexer no bannerConteudo3 (dps que conseguir apagar esses comentarios)*/
+@media screen and (min-width: 820px) and (max-width: 1024px){
+.bannerConteudo1,.bannerConteudo2,.bannerConteudo3 h1{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  top: 20%;
+  left: 0%;
+}
+#arrumar{
+    height: 400px;
+}
+.servicesContent1{
+  padding-bottom: 100px;
+}
+  .bannerConteudo1 a{
+    margin-top: 200px;
+  }
+}
 @media screen and (max-width: 768px) {
+    .bannerConteudo2{
+      margin-right: 7%;
+      margin-top: 20%;
+    }
+  .bannerConteudo1{
+      margin-top: 80%;
+    margin-right: 7%;
+    }
+  .bannerConteudo1 a{
+    top: 90%;
+    margin-top: 40px;
+  }
+
+  .bannerConteudo3{
+      margin-top: 20%;
+    }
     .titulopix {
         font-size: 24px;
     }
