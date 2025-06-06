@@ -1536,8 +1536,6 @@
         width: 200px;
     }
 }
-/*AQUI*/
-/*yago vc tem que mexer no bannerConteudo3 (dps que conseguir apagar esses comentarios)*/
 @media screen and (min-width: 820px) and (max-width: 1024px){
 .bannerConteudo1,.bannerConteudo2,.bannerConteudo3 h1{
   text-align: center;
@@ -1555,7 +1553,46 @@
   .bannerConteudo1 a{
     margin-top: 200px;
   }
+  .banner3 {
+    flex-direction: column;
+    padding: 5dvh 5dvh;
+    text-align: center;
+    gap: 5dvh;
+  }
+
+  .bannerConteudo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+  }
+
+  .tituloBanner3 {
+    font-size: 5dvh;
+    margin-bottom: 2dvh;
+  }
+
+  .textoBanner3 {
+    font-size: 3dvh;
+    margin-bottom: 3dvh;
+  }
+
+  .botaoDoar {
+    font-size: 2.5dvh;
+    padding: 15px 30px;
+    margin-top: 4dvh;
+  }
+
+  .iconesBanner3 {
+    order: 2;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 10dvh;
+    gap: 5dvh;
+  }
+
 }
+
 @media screen and (max-width: 768px) {
     .bannerConteudo2{
       margin-right: 7%;
