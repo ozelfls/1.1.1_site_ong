@@ -1582,3 +1582,283 @@
     font-size: 1rem;
   }
 }
+#conecte{
+  color:#171717;
+}
+
+.botaoChegar {
+  display: inline-block;
+  margin-top: 4vh;
+  padding: 14px 32px;
+  background: var(--color-neutral-40);
+  color: #8A2BE2;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 2.4vh;
+  transition: background 0.3s, color 0.3s;
+}
+.botaoChegar:hover {
+  background: #f3e9fd;
+  color: #6b1cb8;
+}
+
+.botaoSaiba {
+  display: inline-block;
+  margin-top: 5vh;
+  padding: 14px 36px;
+  background-color: #004aad;
+  color: var(--color-neutral-40);
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 2.4vh;
+  transition: background-color 0.3s ease;
+}
+.botaoSaiba:hover {
+  background-color: #003d80;
+}
+
+
+
+@media (max-width: 768px) {
+  .bannerCarrossel {
+    height: 100vh;
+  }
+
+
+  .bannerConteudo1,
+  .bannerConteudo2,
+  .bannerConteudo3 {
+    left: 5vw !important;
+    bottom: 15vh;
+    text-align: center;
+  }
+
+
+  .bannerConteudo1 {
+    position: relative;
+    top: 35vh;
+    text-align: left;
+    padding-right: 5vw;
+  }
+
+
+  .bannerConteudo1 h1,
+  .bannerConteudo2 h1,
+  .tituloBanner3 {
+    font-size: 6vh;
+  }
+
+  .bannerConteudo1 h1 {
+    font-size: 5.5vh;
+    line-height: 1.2;
+  }
+
+
+  .bannerConteudo1 p,
+  .bannerConteudo2 p,
+  .textoBanner3 {
+    font-size: 2.5vh;
+    margin-left: 0;
+  }
+
+  .bannerConteudo1 p {
+    font-size: 2.2vh;
+    margin-top: 1.5vh;
+  }
+
+
+  .botaoChegar,
+  .botaoSaiba,
+  .botaoDoar {
+    position: relative;
+    margin: 3vh auto 0 auto;
+    display: block;
+    font-size: 2.5vh;
+    padding: 12px 25px;
+    text-align: center;
+    width: fit-content;
+  }
+
+
+  .botaoChegar {
+    top: 38vh;
+    left: 5vw;
+    margin-top: 2vh;
+    padding: 12px 24px;
+    font-size: 2.2vh;
+    display: inline-block;
+    width: auto;
+  }
+
+
+  .bannerConteudo2 {
+    left: 5vw;
+    top: 10vh;
+    text-align: center;
+  }
+
+
+  .logoFranit {
+    position: relative;
+    width: 40vw;
+    margin: 2vh auto 0 auto;
+    display: block;
+  }
+
+
+  .banner3 {
+    flex-direction: column;
+    padding: 5vh 5vw;
+    text-align: center;
+  }
+
+  .iconesBanner3 {
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12vh;
+    gap: 5vw;
+    margin-top: 5vh;
+  }
+
+
+  .localizacao {
+    position: relative;
+    top: 40vh;
+    left: 5vw;
+    font-size: 2.2vh;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+    margin-top: 2vh;
+  }
+  .localizacao i {
+    font-size: 2.5vh;
+  }
+
+
+  .dots {
+    bottom: 10px;
+  }
+  .dot {
+    width: 40px;
+    height: 6px;
+  }
+}
+
+
+@media screen and (min-width: 1800px) {
+  .botaoChegar {
+    font-size: 2.5vh;
+    padding: 16px 36px;
+    top: 75%;
+  }
+  .botaoSaiba {
+    font-size: 2.6vh;
+    padding: 16px 40px;
+    margin-top: 5vh;
+  }
+  .localizacao{
+    top: 80%;
+    margin-top:40px;
+  }
+  .localizacao p{
+    font-size:18px;
+  }
+}
+@media (max-width: 768px) {
+  .bannerConteudo1 {
+    position: relative;
+    top: auto;
+    left: 5vw;
+    text-align: left;
+    padding-right: 5vw;
+  }
+
+  .bannerConteudo1 h1 {
+    font-size: 5.5vh;
+    line-height: 1.2;
+  }
+
+  .bannerConteudo1 p {
+    font-size: 2.2vh;
+    margin-top: 1.5vh;
+  }
+
+  .botaoChegar {
+    position: relative;
+    margin-top: 3vh;
+    left: 0;
+    right: 0;
+    padding: 12px 24px;
+    font-size: 2.2vh;
+    display: inline-block;
+    width: auto;
+  }
+
+  .localizacao {
+    position: relative;
+    margin-top: 2vh;
+    font-size: 2.2vh;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+  }
+
+  .localizacao i {
+    font-size: 2.5vh;
+  }
+}
+@media (max-width: 768px) {
+  .bannerConteudo1 {
+    position: relative;
+    top: auto;
+    left: auto;
+    padding: 5vh 5vw;
+    transform: none;
+    text-align: center;
+  }
+
+  .bannerConteudo1 h1 {
+    font-size: 5.5vh;
+    line-height: 1.2;
+  }
+
+  .bannerConteudo1 p {
+    font-size: 2.2vh;
+    margin-top: 1.5vh;
+  }
+
+  .acessoLocalizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    gap: 2vh;
+  }
+
+  .botaoChegar {
+    font-size: 2.2vh;
+    padding: 12px 24px;
+    margin: 0 auto;
+  }
+
+  .localizacao {
+    font-size: 2.2vh;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+  }
+
+  .localizacao i {
+    font-size: 2.5vh;
+  }
+
+  .gps-ico {
+    text-align: left;
+  }
+}
+
+
+
