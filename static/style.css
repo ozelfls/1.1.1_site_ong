@@ -1130,7 +1130,32 @@
     width: 500px;
     height: auto;
   }
+@media screen and (max-width: 375px) {
+        #fraint{
+        max-width: 300px;
+        height: auto;
+    }
+}
+@media (max-width: 767px) {
+  #fraint {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
+@media (min-width: 768px) and (max-width: 991px) {
+  #fraint {
+    max-width: 300px;
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  #fraint {
+    max-width: 300px;
+    height: auto;
+  }
+}
 @media screen and (max-width: 1200px) {
     #header-top {
         justify-content: space-around;

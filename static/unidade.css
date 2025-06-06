@@ -1,56 +1,64 @@
-.servicesContent{
+.servicesContent {
     margin: 10px;
     margin-left: 40px;
     margin-right: 40px;
     gap: 40px;
     display: grid;
     grid-auto-rows: 20rem;
-    grid-template-columns: repeat(3,minmax(0px,30rem));
+    grid-template-columns: repeat(3, minmax(0px, 30rem));
     margin-bottom: 5%;
-    
+
 }
-.servicesContent p{
+
+.servicesContent p {
     font-size: 15px;
     width: 100%;
 }
-.servicesContent1{
+
+.servicesContent1 {
     margin: 10px;
     margin-left: 40px;
     margin-right: 40px;
     gap: 40px;
     display: grid;
     grid-auto-rows: 20rem;
-    grid-template-columns: repeat(2,minmax(0px,30rem));
+    grid-template-columns: repeat(2, minmax(0px, 30rem));
     margin-bottom: 5%;
-    
+
 }
-.servicesContent p{
+
+.servicesContent p {
     font-size: 15px;
     width: 100%;
 }
-.item{
+
+.item {
     background: #F9F6FC;
     text-align: center;
     border-radius: 8px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
-.formatacao{
+
+.formatacao {
     margin-top: 5%;
     overflow: hidden;
     padding: 0 20px;
 }
-.formatacao h2{
+
+.formatacao h2 {
     color: rgb(59, 22, 94);
     margin-bottom: 2%;
-    
+
 }
-.center{
+
+.center {
     width: 100%;
     display: flex;
     justify-content: center;
     background: #F5F0FA;
 }
-.center1{
+
+.center1 {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -58,14 +66,17 @@
     margin-bottom: 2%;
     background: #F3EFFA;
 }
-body{
-    background:#F3EFFA;
+
+body {
+    background: #F3EFFA;
 }
-#iconGrid{
+
+#iconGrid {
     font-size: 50px;
     color: white;
 }
-.bgIcon{
+
+.bgIcon {
     background-color: rgb(59, 22, 94);
     border-radius: 8px 8px 0px 0px;
     height: 30%;
@@ -73,51 +84,57 @@ body{
     justify-content: center;
     align-items: center;
 }
-.contactDesc h2{
+
+.contactDesc h2 {
     color: rgb(59, 22, 94);
     margin-bottom: 40px;
     font-weight: 700;
     font-size: 3rem;
 }
-.contactDesc{
+
+.contactDesc {
     width: 50%;
     margin-left: 10%;
 }
-.contactDesc p{
+
+.contactDesc p {
     width: 70%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
-.contactUs{
+
+.contactUs {
     margin-bottom: 3rem;
     display: flex;
     background: #F5F0FA;
 }
-.contactUs li{
+
+.contactUs li {
     margin-bottom: 3px;
 }
-ul li{
+
+ul li {
     list-style-type: none;
 }
 
-.contactGrid{
+.contactGrid {
     width: auto;
-    
-}
-
-.contactContent{
-/* border: 2px solid blue; */
-margin: 8px;
-display: grid;
-gap: 20px;
-grid-template-columns: 16rem 16rem;
-grid-template-rows: 12rem 12rem;
-
 
 }
 
+.contactContent {
+    /* border: 2px solid blue; */
+    margin: 8px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 16rem 16rem;
+    grid-template-rows: 12rem 12rem;
 
-.box{
+
+}
+
+
+.box {
     background-color: rgb(59, 22, 94);
     border-radius: 7px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
@@ -126,44 +143,56 @@ grid-template-rows: 12rem 12rem;
     align-items: center;
 }
 
-.boxDesc i{
+.boxDesc i {
     font-size: 60px;
 }
-.boxDesc p{
+
+.boxDesc p {
     font-weight: 700;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
 }
-.boxDesc{
+
+.boxDesc {
     color: white;
     text-align: center;
     align-items: center;
 }
 
-@media screen and (max-width: 1360px){
-    .servicesContent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 25rem;
-  gap: 40px;
-        margin-top: 60px;
+@media screen and (max-width: 1600px) {
+    .first-content {
+        height: auto;
+        padding-bottom: 50px;
+    }
 }
-    .first-content{
+
+@media screen and (max-width: 1360px) {
+    .servicesContent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 25rem;
+        gap: 40px;
+        margin-top: 60px;
+    }
+
+    .first-content {
         padding-bottom: 50px;
         height: auto;
     }
-    .onHandle p{
+
+    .onHandle p {
         padding-bottom: 40px;
     }
 }
+
 @media screen and (max-width: 414px) {
-.servicesContent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 25rem;
-  gap: 40px;
-}
+    .servicesContent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 25rem;
+        gap: 40px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -183,16 +212,19 @@ grid-template-rows: 12rem 12rem;
 }
 
 @media screen and (max-width: 992px) {
-    i{
+    i {
         padding-top: 10px;
     }
-    .box{
+
+    .box {
         padding: 10px;
 
     }
-    .item.item-1{
+
+    .item.item-1 {
         padding-bottom: 80px;
     }
+
     .first-content {
         gap: 100px;
         height: auto;
@@ -207,7 +239,8 @@ grid-template-rows: 12rem 12rem;
         width: 80%;
     }
 
-    .servicesContent, .servicesContent1 {
+    .servicesContent,
+    .servicesContent1 {
         grid-template-columns: repeat(2, minmax(0, 1fr));
         margin-left: 20px;
         margin-right: 20px;
@@ -238,48 +271,89 @@ grid-template-rows: 12rem 12rem;
     }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 375px) {
+        #fraint{
+        max-width: 200px;
+        height: auto;
+    }
+    .item.item-1 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .item.item-1 i {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .servicesContent1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 25rem;
+        gap: 40px;
+    }
+
+    .boxLeft h2{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
     .boxLeft {
         width: 100%;
         margin: 5px;
     }
-    .onHandle{
+
+    .onHandle {
         width: 100%;
     }
 
-}
-@media screen and (max-width: 375px){
-    .item.item-1{
-        padding-bottom: 120px;
+    .item {
+        height: auto;
+        padding-bottom: 50px;
+
     }
-      .item.item-1 i{
+
+
+    .item.item-1 i {
         padding-bottom: 10px;
         padding-top: 10px;
     }
-      .servicesContent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 25rem; /* Aumenta a altura das linhas */
-  gap: 40px;
+
+    .servicesContent1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 25rem;
+        gap: 40px;
+    }
+
+    .boxLeft h2{
+        margin-top: 40px;
+    }
 }
-}
+
 @media screen and (max-width: 768px) {
-    .third-content{
+    .third-content {
         justify-content: center;
         justify-items: center;
         align-items: center;
     }
+
     .boxLeft {
         width: 100%;
         margin: 5px;
     }
-        .onHandle{
+
+    .onHandle {
         width: 100%;
     }
+
     #header-top {
         font-size: 16px;
         gap: 20px;
     }
+
     .contentBox h1 {
         font-size: 2.5rem;
         margin-bottom: 20px;
@@ -289,7 +363,8 @@ grid-template-rows: 12rem 12rem;
         font-size: 1.8rem;
     }
 
-    .servicesContent, .servicesContent1 {
+    .servicesContent,
+    .servicesContent1 {
         grid-template-columns: 1fr;
     }
 
@@ -347,7 +422,8 @@ grid-template-rows: 12rem 12rem;
         padding: 2rem 1.5rem;
     }
 
-    .footer-list, .footer-lista {
+    .footer-list,
+    .footer-lista {
         margin-left: 0;
     }
 
